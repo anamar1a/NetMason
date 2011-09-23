@@ -1,0 +1,33 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE dataset SYSTEM "netml.dtd">
+<dataset>
+	<graph>
+		<node id = "Joe" nodeType = "agent">
+			<properties>
+				<property value = "20" datatype = "string" name = "age"/>
+				<property name = "mother" value = "Mary" datatype = "string"/>
+			</properties>
+		</node>
+		<node id = "Banker" nodeType = "agent">
+			<properties>
+				<timedProperty name = "wealth" datatype = "double">
+					<timedValue timeStamp = "1" value = "1000000"/>
+					<timedValue timeStamp = "2" value = "4000000"/>
+					<timedValue timeStamp = "3" value = "3000000"/>
+					<timedValue timeStamp = "10" value = "20000000"/>
+				</timedProperty>
+			</properties>
+		</node>
+		<node id = "r1" nodeType = "resource" timeEnter = "1" timeExit = "5"/>
+		<node id = "r2" nodeType = "resource" timeEnter = "5" timeExit = "10"/>
+		<edge fromID = "Joe" toID = "Banker" edgeType = "employeeOf"/>
+		<edge fromID = "Joe" toID = "r1" edgeType = "has" datatype = "double" value = "10" timeEnter = "1" timeExit = "5"/>
+		<edge fromID = "Banker" toID = "r1" edgeType = "has" datatype = "double" value = "10000" timeEnter = "1" timeExit = "10"/>
+		<edge fromID = "Banker" toID = "r2" edgeType = "has" datatype = "double" value = "1000"/>
+		<edge fromID = "r1" toID = "r2" edgeType = "relatedTo"/>
+		<hyperedge id = "resources">
+			<nodepointer id = "r1"/>
+			<nodepointer id = "r2"/>
+		</hyperedge>
+	</graph>
+</dataset>

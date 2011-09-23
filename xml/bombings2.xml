@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<MetaMatrix>
+    <nodes>
+        <nodeset id="agent" type="agent">
+            <node id="Mohammed_Rashed_Daoud_al-Owhali">
+                <properties>
+                    <property name="knowledge" type="java.lang.Double" value="0.7500" />
+                </properties>
+                <measures>
+                    <measure name="taskExclusivity" type="java.lang.Double" value="0.5017">
+                        <input id="social_network" />
+                    </measure>
+                    <measure name="knowledgeExclusivity" type="java.lang.Double" value="1.0000">
+                        <input id="social_network" />
+                    </measure>
+                    <measure name="cognitiveLoad" type="java.lang.Double" value="0.1354">
+                        <input id="social_network" />
+                    </measure>
+                </measures>
+            </node>
+            <node id="Khalfan_Khamis_Mohamed">
+                <properties>
+                    <property name="knowledge" type="java.lang.Double" value="0.5000" />
+                </properties>
+                <measures>
+                    <measure name="taskExclusivity" type="java.lang.Double" value="0.8683">
+                        <input id="social_network" />
+                    </measure>
+                    <measure name="knowledgeExclusivity" type="java.lang.Double" value="0.0204">
+                        <input id="social_network" />
+                    </measure>
+                    <measure name="cognitiveLoad" type="java.lang.Double" value="0.2417">
+                        <input id="social_network" />
+                    </measure>
+                </measures>
+            </node>
+            <node id="Mohammed_Sadiq_Odeh">
+                <properties>
+                    <property name="knowledge" type="java.lang.Double" value="0.7500" />
+                </properties>
+                <measures>
+                    <measure name="taskExclusivity" type="java.lang.Double" value="0.1867">
+                        <input id="social_network" />
+                    </measure>
+                    <measure name="knowledgeExclusivity" type="java.lang.Double" value="0.0207">
+                        <input id="social_network" />
+                    </measure>
+                    <measure name="cognitiveLoad" type="java.lang.Double" value="0.1667">
+                        <input id="social_network" />
+                    </measure>
+                </measures>
+            </node>
+            <node id="Ahmed_the_German">
+                <properties>
+                    <property name="knowledge" type="java.lang.Double" value="0.0000" /> 
+                </properties>
+                <measures>
+                    <measure name="taskExclusivity" type="java.lang.Double" value="0.4983">
+                        <input id="social_network" />
+                    </measure>
+                    <measure name="knowledgeExclusivity" type="java.lang.Double" value="0.0000">
+                        <input id="social_network" />
+                    </measure>
+                    <measure name="cognitiveLoad" type="java.lang.Double" value="0.0521">
+                        <input id="social_network" />
+                    </measure>
+                </measures>
+            </node>
+            <node id="Fazul_Abdullah_Mohammed">
+                <properties>
+                    <property name="knowledge" type="java.lang.Double" value="0.7500" />
+                </properties>
+                <measures>
+                    <measure name="taskExclusivity" type="java.lang.Double" value="0.8683">
+                        <input id="social_network" />
+                    </measure>
+                    <measure name="knowledgeExclusivity" type="java.lang.Double" value="0.0207">
+                        <input id="social_network" />
+                    </measure>
+                    <measure name="cognitiveLoad" type="java.lang.Double" value="0.3021">
+                        <input id="social_network" />
+                    </measure>
+                </measures>
+            </node>
+            <node id="Wadih_al_Hage">
+                <properties>
+                    <property name="knowledge" type="java.lang.Double" value="0.5000" />
+                </properties>
+                <measures>
+                    <measure name="taskExclusivity" type="java.lang.Double" value="0.0034">
+                        <input id="social_network" />
+                    </measure>
+                    <measure name="knowledgeExclusivity" type="java.lang.Double" value="0.0028">
+                        <input id="social_network" />
+                    </measure>
+                    <measure name="cognitiveLoad" type="java.lang.Double" value="0.1646">
+                        <input id="social_network" />
+                    </measure>
+                </measures>
+            </node>
+            <node id="Usama_Bin_Ladin">
+                <properties>
+                    <property name="knowledge" type="java.lang.Double" value="0.2500" />
+                </properties>
+                <measures>
+                    <measure name="taskExclusivity" type="java.lang.Double" value="0.0000">
+                        <input id="social_network" />
+                    </measure>
+                    <measure name="knowledgeExclusivity" type="java.lang.Double" value="0.9821">
+                        <input id="social_network" />
+                    </measure>
+                    <measure name="cognitiveLoad" type="java.lang.Double" value="0.1021">
+                        <input id="social_network" />
+                    </measure>
+                </measures>
+            </node>
+            <node id="Ali_Mohammed">
+                <properties>
+                    <property name="knowledge" type="java.lang.Double" value="0.5000" />
+                </properties>
+                <measures>
+                    <measure name="taskExclusivity" type="java.lang.Double" value="0.4983">
+                        <input id="social_network" />
+                    </measure>
+                    <measure name="knowledgeExclusivity" type="java.lang.Double" value="0.0183">
+                        <input id="social_network" />
+                    </measure>
+                    <measure name="cognitiveLoad" type="java.lang.Double" value="0.0625">
+                        <input id="social_network" />
+                    </measure>
+                </measures>
+            </node>
+            <node id="Ahmed_Khalfan_Ghailani">
+                <properties>
+                    <property name="knowledge" type="java.lang.Double" value="0.0000" />
+                </properties>
+                <measures>
+                    <measure name="taskExclusivity" type="java.lang.Double" value="0.1833">
+                        <input id="social_network" />
+                    </measure>
+                    <measure name="knowledgeExclusivity" type="java.lang.Double" value="0.0000">
+                        <input id="social_network" />
+                    </measure>
+                    <measure name="cognitiveLoad" type="java.lang.Double" value="0.1542">
+                        <input id="social_network" />
+                    </measure>
+                </measures>
+            </node>
+            <node id="Mohammed_Salim">
+                <properties>
+                    <property name="knowledge" type="java.lang.Double" value="0.5000" />
+                </properties>
+                <measures>
+                    <measure name="taskExclusivity" type="java.lang.Double" value="0.0034">
+                        <input id="social_network" />
+                    </measure>
+                    <measure name="knowledgeExclusivity" type="java.lang.Double" value="0.0028">
+                        <input id="social_network" />
+                    </measure>
+                    <measure name="cognitiveLoad" type="java.lang.Double" value="0.1125">
+                        <input id="social_network" />
+                    </measure>
+                </measures>
+            </node>
+            <node id="al-Fadl">
+                <properties>
+                    <property name="knowledge" type="java.lang.Double" value="0.5000" />
+                </properties>
+                <measures>
+                    <measure name="taskExclusivity" type="java.lang.Double" value="0.0034">
+                        <input id="social_network" />
+                    </measure>
+                    <measure name="knowledgeExclusivity" type="java.lang.Double" value="0.0028">
+                        <input id="social_network" />
+                    </measure>
+                    <measure name="cognitiveLoad" type="java.lang.Double" value="0.0625">
+                        <input id="social_network" />
+                    </measure>
+                </measures>
+            </node>
+            <node id="al-Fawwaz">
+                <properties>
+                    <property name="knowledge" type="java.lang.Double" value="0.2500" />
+                </properties>
+                <measures>
+                    <measure name="taskExclusivity" type="java.lang.Double" value="0.0000">
+                        <input id="social_network" />
+                    </measure>
+                    <measure name="knowledgeExclusivity" type="java.lang.Double" value="0.9793">
+                        <input id="social_network" />
+                    </measure>
+                    <measure name="cognitiveLoad" type="java.lang.Double" value="0.0208">
+                        <input id="social_network" />
+                    </measure>
+                </measures>
+            </node>
+            <node id="Jihad_Mohammed_Ali_(Azzam)">
+                <properties>
+                    <property name="knowledge" type="java.lang.Double" value="0.5000" />
+                </properties>
+                <measures>
+                    <measure name="taskExclusivity" type="java.lang.Double" value="1.0000">
+                        <input id="social_network" />
+                    </measure>
+                    <measure name="knowledgeExclusivity" type="java.lang.Double" value="0.0028">
+                        <input id="social_network" />
+                    </measure>
+                    <measure name="cognitiveLoad" type="java.lang.Double" value="0.1458">
+                        <input id="social_network" />
+                    </measure>
+                </measures>
+            </node>
+            <node id="abouhalima">
+                <properties>
+                    <property name="knowledge" type="java.lang.Double" value="0.0000" />
+                </properties>
+                <measures>
+                    <measure name="taskExclusivity" type="java.lang.Double" value="0.0000">
+                        <input id="social_network" />
+                    </measure>
+                    <measure name="knowledgeExclusivity" type="java.lang.Double" value="0.0183">
+                        <input id="social_network" />
+                    </measure>
+                    <measure name="cognitiveLoad" type="java.lang.Double" value="0.0208">
+                        <input id="social_network" />
+                    </measure>
+                </measures>
+            </node>
+            <node id="Abdullah_Ahmed_Abdullah_(Saleh)">
+                <properties>
+                    <property name="knowledge" type="java.lang.Double" value="0.2500" />
+                </properties>
+                <measures>
+                    <measure name="taskExclusivity" type="java.lang.Double" value="0.8650">
+                        <input id="social_network" />
+                    </measure>
+                    <measure name="knowledgeExclusivity" type="java.lang.Double" value="0.0179">
+                        <input id="social_network" />
+                    </measure>
+                    <measure name="cognitiveLoad" type="java.lang.Double" value="0.3104">
+                        <input id="social_network" />
+                    </measure>
+                </measures>
+            </node>
+            <node id="Abdal_Rahman">
+                <properties>
+                    <property name="knowledge" type="java.lang.Double" value="0.0000" />
+                </properties>
+                <measures>
+                    <measure name="taskExclusivity" type="java.lang.Double" value="0.3700">
+                        <input id="social_network" />
+                    </measure>
+                    <measure name="knowledgeExclusivity" type="java.lang.Double" value="0.0003">
+                        <input id="social_network" />
+                    </measure>
+                    <measure name="cognitiveLoad" type="java.lang.Double" value="0.2104">
+                        <input id="social_network" />
+                    </measure>
+                </measures>
+            </node>
+        </nodeset>
+        <nodeset id="type" type="task">
+            <node id="surveillence" />
+            <node id="weapon_training" />
+            <node id="driving_training" />
+            <node id="bomb_prep" />
+            <node id="bombing" />
+        </nodeset>
+        <nodeset id="resource" type="resource">
+            <node id="building_for_bombmaking" />
+            <node id="money" />
+            <node id="bomb_material" />
+            <node id="truck" />
+        </nodeset>
+        <nodeset id="knowledge" type="knowledge">
+            <node id="religious_extremism" />
+            <node id="weapons_expertise" />
+            <node id="surveillance_expertise" />
+            <node id="media_consultant" />
+        </nodeset>
+    </nodes>
+    <networks>
+        <graph sourceType="agent" targetType="agent" id="social_network">
+            <edge source="Mohammed_Rashed_Daoud_al-Owhali" target="Usama_Bin_Ladin" type="java.lang.Double" value="1.000000">
+				<properties>
+					<property name="trust" type="java.lang.Double" value="0.75" />
+				</properties>
+            </edge>
+            <edge source="Mohammed_Rashed_Daoud_al-Owhali" target="Jihad_Mohammed_Ali_(Azzam)" type="java.lang.Double" value="6.000000" >
+            	<properties>
+					<property name="trust"  type="java.lang.Double" value="0.75" />
+				</properties>
+            </edge>
+            <edge source="Mohammed_Rashed_Daoud_al-Owhali" target="Abdullah_Ahmed_Abdullah_(Saleh)" type="java.lang.Double" value="6.000000" >
+            	<properties>
+					<property name="trust" type="java.lang.Double" value="0.75" />
+				</properties>
+            </edge>
+            <edge source="Mohammed_Rashed_Daoud_al-Owhali" target="Abdal_Rahman" type="java.lang.Double" value="1.000000" >
+            	<properties>
+					<property name="trust"  type="java.lang.Double" value="0.75" />
+				</properties>
+            </edge>
+            <edge source="Khalfan_Khamis_Mohamed" target="Wadih_al_Hage" type="java.lang.Double" value="5.000000" >
+            	<properties>
+					<property name="trust" type="java.lang.Double"  value="0.75" />
+				</properties>
+            </edge>
+            <edge source="Mohammed_Sadiq_Odeh" target="Wadih_al_Hage" type="java.lang.Double" value="1.000000" >
+            	<properties>
+					<property name="trust" type="java.lang.Double" value="0.75" />
+				</properties>
+            </edge>
+            <edge source="Mohammed_Sadiq_Odeh" target="abouhalima" type="java.lang.Double" value="5.000000" >
+            	<properties>
+					<property name="trust" type="java.lang.Double" value="0.75" />
+				</properties>
+            </edge>
+            <edge source="Ahmed_the_German" target="Abdullah_Ahmed_Abdullah_(Saleh)" type="java.lang.Double" value="6.000000" >
+            	<properties>
+					<property name="trust" type="java.lang.Double" value="0.75" />
+				</properties>
+            </edge>
+            <edge source="Fazul_Abdullah_Mohammed" target="Wadih_al_Hage" type="java.lang.Double" value="6.000000" >
+            	<properties>
+					<property name="trust" type="java.lang.Double" value="0.75" />
+				</properties>
+            </edge>
+            <edge source="Fazul_Abdullah_Mohammed" target="Usama_Bin_Ladin" type="java.lang.Double" value="1.000000" >
+            	<properties>
+					<property name="trust" type="java.lang.Double" value="0.75" />
+				</properties>
+            </edge>
+            <edge source="Wadih_al_Hage" target="Mohammed_Sadiq_Odeh" type="java.lang.Double" value="1.000000" >
+            	<properties>
+					<property name="trust" type="java.lang.Double" value="0.75" />
+				</properties>
+            </edge>
+            <edge source="Wadih_al_Hage" target="Fazul_Abdullah_Mohammed" type="java.lang.Double" value="1.000000" >
+            	<properties>
+					<property name="trust" type="java.lang.Double" value="0.75" />
+				</properties>
+            </edge>
+            <edge source="Wadih_al_Hage" target="Usama_Bin_Ladin" type="java.lang.Double" value="6.000000" >
+            	<properties>
+					<property name="trust" type="java.lang.Double" value="0.75" />
+				</properties>
+            </edge>
+            <edge source="Wadih_al_Hage" target="Ali_Mohammed" type="java.lang.Double" value="1.000000" >
+            	<properties>
+					<property name="trust" type="java.lang.Double" value="0.75" />
+				</properties>
+            </edge>
+            <edge source="Wadih_al_Hage" target="al-Fawwaz" type="java.lang.Double" value="1.000000" >
+            	<properties>
+					<property name="trust" type="java.lang.Double" value="0.75" />
+				</properties>
+			</edge>
+            <edge source="Wadih_al_Hage" target="abouhalima" type="java.lang.Double" value="1.000000" >
+            	<properties>
+					<property name="trust" type="java.lang.Double" value="0.75" />
+				</properties>
+            </edge>
+            <edge source="Usama_Bin_Ladin" target="Mohammed_Rashed_Daoud_al-Owhali" type="java.lang.Double" value="1.000000" >
+            	<properties>
+					<property name="trust" type="java.lang.Double" value="0.75" />
+				</properties>
+            </edge>
+            <edge source="Usama_Bin_Ladin" target="Fazul_Abdullah_Mohammed" type="java.lang.Double" value="1.000000" >
+            	<properties>
+					<property name="trust" type="java.lang.Double" value="0.75" />
+				</properties>
+            </edge>
+            <edge source="Usama_Bin_Ladin" target="Wadih_al_Hage" type="java.lang.Double" value="6.000000" >
+            	<properties>
+					<property name="trust" type="java.lang.Double" value="0.75" />
+				</properties>
+            </edge>
+            <edge source="Usama_Bin_Ladin" target="Ali_Mohammed" type="java.lang.Double" value="6.000000" >
+            	<properties>
+					<property name="trust"  type="java.lang.Double" value="0.75" />
+				</properties>
+            </edge>
+            <edge source="Usama_Bin_Ladin" target="al-Fawwaz" type="java.lang.Double" value="1.000000" >
+            	<properties>
+					<property name="trust" type="java.lang.Double" value="0.75" />
+				</properties>
+            </edge>
+            <edge source="Ali_Mohammed" target="Wadih_al_Hage" type="java.lang.Double" value="1.000000" >
+            	<properties>
+					<property name="trust" type="java.lang.Double" value="0.75" />
+				</properties>
+            </edge>
+            <edge source="Ali_Mohammed" target="Usama_Bin_Ladin" type="java.lang.Double" value="6.000000" >
+            	<properties>
+					<property name="trust"  type="java.lang.Double" value="0.75" />
+				</properties>
+            </edge>
+            <edge source="Ahmed_Khalfan_Ghailani" target="Mohammed_Rashed_Daoud_al-Owhali" type="java.lang.Double" value="5.000000" >
+            	<properties>
+					<property name="trust" type="java.lang.Double"  value="0.75" />
+				</properties>
+            </edge>
+            <edge source="Mohammed_Salim" target="abouhalima" type="java.lang.Double" value="5.000000" >
+            	<properties>
+					<property name="trust" type="java.lang.Double" value="0.75" />
+				</properties>
+            </edge>
+            <edge source="al-Fadl" target="Abdal_Rahman" type="java.lang.Double" value="5.000000" >
+            	<properties>
+					<property name="trust" type="java.lang.Double" value="0.75" />
+				</properties>
+            </edge>
+            <edge source="al-Fawwaz" target="Wadih_al_Hage" type="java.lang.Double" value="1.000000" >
+            	<properties>
+					<property name="trust"  type="java.lang.Double" value="0.75" />
+				</properties>
+			</edge>
+            <edge source="al-Fawwaz" target="Usama_Bin_Ladin" type="java.lang.Double" value="6.000000" >
+            	<properties>
+					<property name="trust" type="java.lang.Double" value="0.75" />
+				</properties>
+            </edge>
+            <edge source="Jihad_Mohammed_Ali_(Azzam)" target="Mohammed_Rashed_Daoud_al-Owhali" type="java.lang.Double" value="7.000000" >
+            	<properties>
+					<property name="trust" type="java.lang.Double" value="0.75" />
+				</properties>
+            </edge>
+            <edge source="abouhalima" target="Wadih_al_Hage" type="java.lang.Double" value="1.000000" >
+            	<properties>
+					<property name="trust" type="java.lang.Double" value="0.75" />
+				</properties>
+            </edge>
+            <edge source="abouhalima" target="Mohammed_Salim" type="java.lang.Double" value="10.000000" >
+            	<properties>
+					<property name="trust" type="java.lang.Double" value="0.75" />
+				</properties>
+            </edge>
+            <edge source="Abdullah_Ahmed_Abdullah_(Saleh)" target="Mohammed_Rashed_Daoud_al-Owhali" type="java.lang.Double" value="6.000000" >
+            	<properties>
+					<property name="trust" type="java.lang.Double" value="0.75" />
+				</properties>
+            </edge>
+            <edge source="Abdullah_Ahmed_Abdullah_(Saleh)" target="Mohammed_Sadiq_Odeh" type="java.lang.Double" value="1.000000" >
+            	<properties>
+					<property name="trust" type="java.lang.Double" value="0.75" />
+				</properties>
+            </edge>
+            <edge source="Abdullah_Ahmed_Abdullah_(Saleh)" target="Abdal_Rahman" type="java.lang.Double" value="1.000000" >
+            	<properties>
+					<property name="trust" type="java.lang.Double" value="0.75" />
+				</properties>
+            </edge>
+            <edge source="Abdal_Rahman" target="Mohammed_Rashed_Daoud_al-Owhali" type="java.lang.Double" value="6.000000" >
+            	<properties>
+					<property name="trust" type="java.lang.Double" value="0.75" />
+				</properties>
+            </edge>
+            <edge source="Abdal_Rahman" target="Abdullah_Ahmed_Abdullah_(Saleh)" type="java.lang.Double" value="1.000000" >
+            	<properties>
+					<property name="trust" type="java.lang.Double" value="0.75" />
+				</properties>
+            </edge>
+        </graph>
+        <graph sourceType="agent" targetType="knowledge" id="knowledge_network">
+            <edge source="Mohammed_Rashed_Daoud_al-Owhali" target="religious_extremism" type="java.lang.Double" value="1.000000" />
+            <edge source="Mohammed_Rashed_Daoud_al-Owhali" target="weapons_expertise" type="java.lang.Double" value="1.000000" />
+            <edge source="Mohammed_Rashed_Daoud_al-Owhali" target="surveillance_expertise" type="java.lang.Double" value="1.000000" />
+            <edge source="Mohammed_Rashed_Daoud_al-Owhali" target="media_consultant" type="java.lang.Double" value="0.000000" />
+            <edge source="Khalfan_Khamis_Mohamed" target="weapons_expertise" type="java.lang.Double" value="1.000000" />
+            <edge source="Khalfan_Khamis_Mohamed" target="surveillance_expertise" type="java.lang.Double" value="1.000000" />
+            <edge source="Mohammed_Sadiq_Odeh" target="religious_extremism" type="java.lang.Double" value="1.000000" />
+            <edge source="Mohammed_Sadiq_Odeh" target="weapons_expertise" type="java.lang.Double" value="1.000000" />
+            <edge source="Mohammed_Sadiq_Odeh" target="surveillance_expertise" type="java.lang.Double" value="1.000000" />
+            <edge source="Fazul_Abdullah_Mohammed" target="religious_extremism" type="java.lang.Double" value="1.000000" />
+            <edge source="Fazul_Abdullah_Mohammed" target="weapons_expertise" type="java.lang.Double" value="1.000000" />
+            <edge source="Fazul_Abdullah_Mohammed" target="surveillance_expertise" type="java.lang.Double" value="1.000000" />
+            <edge source="Wadih_al_Hage" target="religious_extremism" type="java.lang.Double" value="1.000000" />
+            <edge source="Wadih_al_Hage" target="weapons_expertise" type="java.lang.Double" value="1.000000" />
+            <edge source="Usama_Bin_Ladin" target="religious_extremism" type="java.lang.Double" value="1.000000" />
+            <edge source="Usama_Bin_Ladin" target="weapons_expertise" type="java.lang.Double" value="0.000000" />
+            <edge source="Usama_Bin_Ladin" target="media_consultant" type="java.lang.Double" value="1.000000" />
+            <edge source="Ali_Mohammed" target="religious_extremism" type="java.lang.Double" value="1.000000" />
+            <edge source="Ali_Mohammed" target="surveillance_expertise" type="java.lang.Double" value="1.000000" />
+            <edge source="Mohammed_Salim" target="religious_extremism" type="java.lang.Double" value="1.000000" />
+            <edge source="Mohammed_Salim" target="weapons_expertise" type="java.lang.Double" value="1.000000" />
+            <edge source="al-Fadl" target="religious_extremism" type="java.lang.Double" value="1.000000" />
+            <edge source="al-Fadl" target="weapons_expertise" type="java.lang.Double" value="1.000000" />
+            <edge source="al-Fawwaz" target="media_consultant" type="java.lang.Double" value="1.000000" />
+            <edge source="Jihad_Mohammed_Ali_(Azzam)" target="religious_extremism" type="java.lang.Double" value="1.000000" />
+            <edge source="Jihad_Mohammed_Ali_(Azzam)" target="weapons_expertise" type="java.lang.Double" value="1.000000" />
+            <edge source="abouhalima" target="religious_extremism" type="java.lang.Double" value="1.000000" />
+            <edge source="abouhalima" target="surveillance_expertise" type="java.lang.Double" value="0.000000" />
+            <edge source="Abdullah_Ahmed_Abdullah_(Saleh)" target="surveillance_expertise" type="java.lang.Double" value="1.000000" />
+            <edge source="Abdal_Rahman" target="religious_extremism" type="java.lang.Double" value="1.000000" />
+        </graph>
+        <graph sourceType="agent" targetType="resource" id="resource_network">
+            <edge source="Khalfan_Khamis_Mohamed" target="building_for_bombmaking" type="java.lang.Double" value="1.000000" />
+            <edge source="Mohammed_Sadiq_Odeh" target="building_for_bombmaking" type="java.lang.Double" value="1.000000" />
+            <edge source="Fazul_Abdullah_Mohammed" target="building_for_bombmaking" type="java.lang.Double" value="1.000000" />
+            <edge source="Ahmed_Khalfan_Ghailani" target="building_for_bombmaking" type="java.lang.Double" value="1.000000" />
+            <edge source="Fazul_Abdullah_Mohammed" target="bomb_material" type="java.lang.Double" value="1.000000" />
+            <edge source="Wadih_al_Hage" target="bomb_material" type="java.lang.Double" value="1.000000" />
+            <edge source="Usama_Bin_Ladin" target="money" type="java.lang.Double" value="1.000000" />
+            <edge source="abouhalima" target="money" type="java.lang.Double" value="1.000000" />
+            <edge source="Ahmed_Khalfan_Ghailani" target="truck" type="java.lang.Double" value="1.000000" />
+            <edge source="Mohammed_Salim" target="money" type="java.lang.Double" value="1.000000" />
+            <edge source="Abdullah_Ahmed_Abdullah_(Saleh)" target="building_for_bombmaking" type="java.lang.Double" value="1.000000" />
+            <edge source="Abdullah_Ahmed_Abdullah_(Saleh)" target="bomb_material" type="java.lang.Double" value="1.000000" />
+            <edge source="Abdullah_Ahmed_Abdullah_(Saleh)" target="truck" type="java.lang.Double" value="1.000000" />
+            <edge source="Abdal_Rahman" target="bomb_material" type="java.lang.Double" value="1.000000" />
+        </graph>
+         <graph sourceType="agent" targetType="resource" id="dependencies">
+            <edge source="bomb_prep" target="building_for_bombmaking" type="java.lang.Double" value="1.000000" />
+            <edge source="bomb_prep" target="bomb_material" type="java.lang.Double" value="1.000000" />
+            <edge source="bomb_prep" target="money" type="java.lang.Double" value="1.000000" />
+            <edge source="bomb_prep" target="weapons_expertise" type="java.lang.Double" value="1.000000" />
+            <edge source="bombing" target="bomb_prep" type="java.lang.Double" value="1.000000" />
+            <edge source="bombing" target="weapon_training" type="java.lang.Double" value="1.000000" />
+            <edge source="bombing" target="surveillence" type="java.lang.Double" value="1.000000" />
+            <edge source="bombing" target="truck" type="java.lang.Double" value="1.000000" />
+            <edge source="surveillence" target="surveillance_expertise" type="java.lang.Double" value="1.000000" />
+            <edge source="weapon_training" target="money" type="java.lang.Double" value="1.000000" />
+        </graph>
+    </networks>
+    <messages>
+   <message from="GameMaster" to="Usama_Bin_Ladin" timeEnter="1" verb="TakeTask">
+   <properties>
+   <property name="activity" type="main.Xtask" value="bombing" />
+   </properties>
+   </message>
+   </messages>
+    <measures>
+        <measure name="resourceCongruence" type="java.lang.Double" value="0.3000" />
+        <measure name="communicationCongruence" type="java.lang.Double" value="0.3000" />
+        <measure name="knowledgeBasedTaskCompletion" type="java.lang.Double" value="0.3000" />
+        <measure name="resourceBasedTaskCompletion" type="java.lang.Double" value="1.0000" />
+        <measure name="knowledgeRedundancy" type="java.lang.Double" value="6.5000" />
+        <measure name="knowledgeDiffusion" type="java.lang.Double" value="0.3750" />
+        <measure name="classification_task_accuracy" type="java.lang.Double" value="0.0000" />
+    </measures>
+</MetaMatrix>

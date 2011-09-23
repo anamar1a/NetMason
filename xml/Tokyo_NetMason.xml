@@ -1,0 +1,497 @@
+<?xml version="1.0" standalone="yes"?>
+
+<DynamicNetwork>
+    <MetaMatrix>
+        <nodes>
+        <nodeset type="resource" id="resource">
+<node id="PCl3"/>
+<node id="methanol"/>
+<node id="amine"/>
+<node id="TMP"/>
+<node id="iodide"/>
+<node id="DMMP"/>
+<node id="chloride"/>
+<node id="dichlor"/>
+<node id="sodium fluoride"/>
+<node id="difluor"/>
+<node id="IPA"/>
+<node id="glass-lined storage container"/>
+<node id="heresite storage container"/>
+<node id="glass holding tank"/>
+<node id="settling tank lined with PE"/>
+<node id="glass lined reactor"/>
+<node id="glass distillation column"/>
+<node id="PE lined drums"/>
+<node id="PE lined neutralization tank"/>
+<node id="glass rotoevaporator with still and receiving flask"/>
+<node id="glass scrubber"/>
+<node id="hastelloy or Ni alloy reactor"/>
+<node id="steel storage tank"/>
+<node id="hastelloy or Ni alloy distillation column"/>
+<node id="glass feed tank"/>
+<node id="glass PE or PP lined holding tank"/>
+<node id="glass PE or PP lined mixing drum"/>
+<node id="sarin"/>
+</nodeset>
+<nodeset type="task" id="task">
+<node id="produce TMP"/>
+<node id="produce DMMP"/>
+<node id="produce dichlor"/>
+<node id="produce difluor"/>
+<node id="produce sarin"/>
+</nodeset>
+            <nodeset type="agent" id="agent">
+                <node id="satoru_hirata">
+                    <properties>
+                        <property name="date" type="java.lang.String" value="1994"/></properties>
+                </node>
+                <node id="shoko_asahara">
+                    <properties>
+                        <property name="date" type="java.lang.String" value="1994"/></properties>
+                </node>
+                <node id="kiyohide_hayakawa">
+                    <properties>
+                        <property name="date" type="java.lang.String" value="2010"/></properties>
+                </node>
+                <node id="oleg_lobov">
+                    <properties>
+                        <property name="date" type="java.lang.String" value="1992"/></properties>
+                </node>
+                <node id="v._baranov">
+                    <properties>
+                        <property name="date" type="java.lang.String" value="2010"/></properties>
+                </node>
+                <node id="satoru_hatamoto">
+                    <properties>
+                        <property name="date" type="java.lang.String" value="2010"/></properties>
+                </node>
+                <node id="follower_a">
+                    <properties>
+                        <property name="date" type="java.lang.String" value="1988"/></properties>
+                </node>
+                <node id="toshihiro_ouchi">
+                    <properties>
+                        <property name="date" type="java.lang.String" value="2010"/></properties>
+                </node>
+                <node id="yoshinobu_aoyama">
+                    <properties>
+                        <property name="date" type="java.lang.String" value="1989"/></properties>
+                </node>
+                <node id="shigeo_sugimoto">
+                    <properties>
+                        <property name="date" type="java.lang.String" value="1994"/></properties>
+                </node>
+                <node id="tomoko_matsumoto">
+                    <properties>
+                        <property name="date" type="java.lang.String" value="1994"/></properties>
+                </node>
+                <node id="hisako_ishii">
+                    <properties>
+                        <property name="date" type="java.lang.String" value="1988"/></properties>
+                </node>
+                <node id="kazuaki_okazaki">
+                    <properties>
+                        <property name="date" type="java.lang.String" value="1988"/></properties>
+                </node>
+                <node id="kenichi_hirose">
+                    <properties>
+                        <property name="date" type="java.lang.String" value="2010"/></properties>
+                </node>
+                <node id="seiichi_endo">
+                    <properties>
+                        <property name="date" type="java.lang.String" value="1994"/></properties>
+                </node>
+                <node id="tomomasa_nakagawa">
+                    <properties>
+                        <property name="date" type="java.lang.String" value="1994"/></properties>
+                </node>
+                <node id="toru_toyoda">
+                    <properties>
+                        <property name="date" type="java.lang.String" value="2010"/></properties>
+                </node>
+                <node id="kazuyoshi_takizawa">
+                    <properties>
+                        <property name="date" type="java.lang.String" value="1993"/></properties>
+                </node>
+                <node id="masami_tsuchiya">
+                    <properties>
+                        <property name="date" type="java.lang.String" value="2010"/></properties>
+                </node>
+                <node id="hideo_murai">
+                    <properties>
+                        <property name="date" type="java.lang.String" value="1989"/></properties>
+                </node>
+                <node id="follower_b">
+                    <properties>
+                        <property name="date" type="java.lang.String" value="1988"/></properties>
+                </node>
+                <node id="fumihiro_joyu">
+                    <properties>
+                        <property name="date" type="java.lang.String" value="1990"/></properties>
+                </node>
+                <node id="yasuo_hayashi">
+                    <properties>
+                        <property name="date" type="java.lang.String" value="2010"/></properties>
+                </node>
+                <node id="aleksandr_rutskoy">
+                    <properties>
+                        <property name="date" type="java.lang.String" value="1992"/></properties>
+                </node>
+                <node id="tomomitsu_niimi">
+                    <properties>
+                        <property name="date" type="java.lang.String" value="1994"/></properties>
+                </node>
+                <node id="zenji_yagisawa">
+                    <properties>
+                        <property name="date" type="java.lang.String" value="1995"/></properties>
+                </node>
+                <node id="masahiro_tominaga">
+                    <properties>
+                        <property name="date" type="java.lang.String" value="2010"/></properties>
+                </node>
+                <node id="satoru_hashimoto">
+                    <properties>
+                        <property name="date" type="java.lang.String" value="1994"/></properties>
+                </node>
+                <node id="yoshihiro_inoue">
+                    <properties>
+                        <property name="date" type="java.lang.String" value="2010"/></properties>
+                </node>
+                <node id="dalai_lama">
+                    <properties>
+                        <property name="date" type="java.lang.String" value="1987"/></properties>
+                </node>
+                <node id="satoshi_matsushita">
+                    <properties>
+                        <property name="date" type="java.lang.String" value="1995"/></properties>
+                </node>
+                <node id="shin_hirata">
+                    <properties>
+                        <property name="date" type="java.lang.String" value="2010"/></properties>
+                </node>
+                <node id="hideaki_yasuda">
+                    <properties>
+                        <property name="date" type="java.lang.String" value="1994"/></properties>
+                </node>
+                <node id="tsutsumi_sakamoto">
+                    <properties>
+                        <property name="date" type="java.lang.String" value="2010"/></properties>
+                </node>
+                <node id="satoko_sakamoto">
+                    <properties>
+                        <property name="date" type="java.lang.String" value="2010"/></properties>
+                </node>
+                <node id="shinichiro_nakajima">
+                    <properties>
+                        <property name="date" type="java.lang.String" value="2010"/></properties>
+                </node>
+                <node id="university_professor">
+                    <properties>
+                        <property name="date" type="java.lang.String" value="2010"/></properties>
+                </node>
+                <node id="taxi_driver">
+                    <properties>
+                        <property name="date" type="java.lang.String" value="1989"/></properties>
+                </node>
+                <node id="[fnu]_nakayama">
+                    <properties>
+                        <property name="date" type="java.lang.String" value="2010"/></properties>
+                </node>
+                <node id="hiroko_nakayama">
+                    <properties>
+                        <property name="date" type="java.lang.String" value="2010"/></properties>
+                </node>
+                <node id="koji_hirota">
+                    <properties>
+                        <property name="date" type="java.lang.String" value="2010"/></properties>
+                </node>
+                <node id="naoto_nishizawa">
+                    <properties>
+                        <property name="date" type="java.lang.String" value="2010"/></properties>
+                </node>
+                <node id="koichi_ninomiya">
+                    <properties>
+                        <property name="date" type="java.lang.String" value="2010"/></properties>
+                </node>
+                <node id="fujio_hori">
+                    <properties>
+                        <property name="date" type="java.lang.String" value="1987"/></properties>
+                </node>
+                <node id="yoshihiro_hara">
+                    <properties>
+                        <property name="date" type="java.lang.String" value="2010"/></properties>
+                </node>
+            </nodeset>
+        </nodes>
+        <networks>
+            <graph sourceType="agent" source="agent" targetType="agent" target="agent" id="AxA">
+                <edge source="satoru_hirata" target="[fnu]_nakayama" type="double" value="17.0"></edge>
+                <edge source="shoko_asahara" target="[fnu]_nakayama" type="double" value="17.0"></edge>
+                <edge source="kiyohide_hayakawa" target="[fnu]_nakayama" type="double" value="17.0"></edge>
+                <edge source="oleg_lobov" target="[fnu]_nakayama" type="double" value="17.0"></edge>
+                <edge source="v._baranov" target="[fnu]_nakayama" type="double" value="17.0"></edge>
+                <edge source="oleg_lobov" target="aleksandr_rutskoy" type="double" value="17.0"></edge>
+                <edge source="shoko_asahara" target="aleksandr_rutskoy" type="double" value="17.0"></edge>
+                <edge source="satoru_hatamoto" target="aleksandr_rutskoy" type="double" value="17.0"></edge>
+                <edge source="follower_a" target="follower_b" type="double" value="17.0"></edge>
+                <edge source="kiyohide_hayakawa" target="fumihiro_joyu" type="double" value="17.0"></edge>
+                <edge source="toshihiro_ouchi" target="fumihiro_joyu" type="double" value="17.0"></edge>
+                <edge source="yoshihiro_inoue" target="fumihiro_joyu" type="double" value="17.0"></edge>
+                <edge source="shigeo_sugimoto" target="hideaki_yasuda" type="double" value="17.0"></edge>
+                <edge source="tomoko_matsumoto" target="hideaki_yasuda" type="double" value="17.0"></edge>
+                <edge source="hisako_ishii" target="hideo_murai" type="double" value="17.0"></edge>
+                <edge source="kazuaki_okazaki" target="hideo_murai" type="double" value="17.0"></edge>
+                <edge source="kenichi_hirose" target="hideo_murai" type="double" value="17.0"></edge>
+                <edge source="kiyohide_hayakawa" target="hideo_murai" type="double" value="17.0"></edge>
+                <edge source="satoru_hatamoto" target="hideo_murai" type="double" value="17.0"></edge>
+                <edge source="seiichi_endo" target="hideo_murai" type="double" value="17.0"></edge>
+                <edge source="tomoko_matsumoto" target="hideo_murai" type="double" value="17.0"></edge>
+                <edge source="tomomasa_nakagawa" target="hideo_murai" type="double" value="17.0"></edge>
+                <edge source="toru_toyoda" target="hideo_murai" type="double" value="17.0"></edge>
+                <edge source="toshihiro_ouchi" target="hideo_murai" type="double" value="17.0"></edge>
+                <edge source="kazuyoshi_takizawa" target="hideo_murai" type="double" value="17.0"></edge>
+                <edge source="masami_tsuchiya" target="hideo_murai" type="double" value="17.0"></edge>
+                <edge source="kiyohide_hayakawa" target="hisako_ishii" type="double" value="17.0"></edge>
+                <edge source="tomoko_matsumoto" target="hisako_ishii" type="double" value="17.0"></edge>
+                <edge source="toshihiro_ouchi" target="hisako_ishii" type="double" value="17.0"></edge>
+                <edge source="hideo_murai" target="kazuaki_okazaki" type="double" value="17.0"></edge>
+                <edge source="hisako_ishii" target="kazuaki_okazaki" type="double" value="17.0"></edge>
+                <edge source="kiyohide_hayakawa" target="kazuaki_okazaki" type="double" value="17.0"></edge>
+                <edge source="satoru_hatamoto" target="kazuaki_okazaki" type="double" value="17.0"></edge>
+                <edge source="tomoko_matsumoto" target="kazuaki_okazaki" type="double" value="17.0"></edge>
+                <edge source="toshihiro_ouchi" target="kazuaki_okazaki" type="double" value="17.0"></edge>
+                <edge source="follower_a" target="kiyohide_hayakawa" type="double" value="17.0"></edge>
+                <edge source="follower_b" target="kiyohide_hayakawa" type="double" value="17.0"></edge>
+                <edge source="fumihiro_joyu" target="kiyohide_hayakawa" type="double" value="17.0"></edge>
+                <edge source="hideo_murai" target="kiyohide_hayakawa" type="double" value="17.0"></edge>
+                <edge source="hisako_ishii" target="kiyohide_hayakawa" type="double" value="17.0"></edge>
+                <edge source="kazuaki_okazaki" target="kiyohide_hayakawa" type="double" value="17.0"></edge>
+                <edge source="satoru_hatamoto" target="kiyohide_hayakawa" type="double" value="17.0"></edge>
+                <edge source="toshihiro_ouchi" target="kiyohide_hayakawa" type="double" value="17.0"></edge>
+                <edge source="yasuo_hayashi" target="kiyohide_hayakawa" type="double" value="17.0"></edge>
+                <edge source="yoshihiro_inoue" target="kiyohide_hayakawa" type="double" value="17.0"></edge>
+                <edge source="yoshinobu_aoyama" target="kiyohide_hayakawa" type="double" value="17.0"></edge>
+                <edge source="kazuyoshi_takizawa" target="masami_tsuchiya" type="double" value="17.0"></edge>
+                <edge source="yasuo_hayashi" target="masami_tsuchiya" type="double" value="17.0"></edge>
+                <edge source="yoshihiro_inoue" target="masami_tsuchiya" type="double" value="17.0"></edge>
+                <edge source="shoko_asahara" target="oleg_lobov" type="double" value="17.0"></edge>
+                <edge source="aleksandr_rutskoy" target="oleg_lobov" type="double" value="17.0"></edge>
+                <edge source="tomomitsu_niimi" target="satoru_hashimoto" type="double" value="17.0"></edge>
+                <edge source="shoko_asahara" target="satoru_hirata" type="double" value="17.0"></edge>
+                <edge source="zenji_yagisawa" target="satoshi_matsushita" type="double" value="17.0"></edge>
+                <edge source="kiyohide_hayakawa" target="seiichi_endo" type="double" value="17.0"></edge>
+                <edge source="masahiro_tominaga" target="seiichi_endo" type="double" value="17.0"></edge>
+                <edge source="tomomasa_nakagawa" target="seiichi_endo" type="double" value="17.0"></edge>
+                <edge source="masami_tsuchiya" target="seiichi_endo" type="double" value="17.0"></edge>
+                <edge source="satoru_hashimoto" target="seiichi_endo" type="double" value="17.0"></edge>
+                <edge source="tomomitsu_niimi" target="seiichi_endo" type="double" value="17.0"></edge>
+                <edge source="yoshihiro_hara" target="shin_hirata" type="double" value="17.0"></edge>
+                <edge source="dalai_lama" target="shoko_asahara" type="double" value="17.0"></edge>
+                <edge source="fumihiro_joyu" target="shoko_asahara" type="double" value="17.0"></edge>
+                <edge source="hideo_murai" target="shoko_asahara" type="double" value="17.0"></edge>
+                <edge source="hisako_ishii" target="shoko_asahara" type="double" value="17.0"></edge>
+                <edge source="kazuaki_okazaki" target="shoko_asahara" type="double" value="17.0"></edge>
+                <edge source="kenichi_hirose" target="shoko_asahara" type="double" value="17.0"></edge>
+                <edge source="kiyohide_hayakawa" target="shoko_asahara" type="double" value="17.0"></edge>
+                <edge source="masahiro_tominaga" target="shoko_asahara" type="double" value="17.0"></edge>
+                <edge source="masami_tsuchiya" target="shoko_asahara" type="double" value="17.0"></edge>
+                <edge source="satoru_hatamoto" target="shoko_asahara" type="double" value="17.0"></edge>
+                <edge source="tomoko_matsumoto" target="shoko_asahara" type="double" value="17.0"></edge>
+                <edge source="toru_toyoda" target="shoko_asahara" type="double" value="17.0"></edge>
+                <edge source="yasuo_hayashi" target="shoko_asahara" type="double" value="17.0"></edge>
+                <edge source="yoshihiro_inoue" target="shoko_asahara" type="double" value="17.0"></edge>
+                <edge source="follower_a" target="taxi_driver" type="double" value="17.0"></edge>
+                <edge source="follower_b" target="taxi_driver" type="double" value="17.0"></edge>
+                <edge source="kiyohide_hayakawa" target="taxi_driver" type="double" value="17.0"></edge>
+                <edge source="hideo_murai" target="taxi_driver" type="double" value="17.0"></edge>
+                <edge source="kazuaki_okazaki" target="taxi_driver" type="double" value="17.0"></edge>
+                <edge source="satoru_hatamoto" target="taxi_driver" type="double" value="17.0"></edge>
+                <edge source="hisako_ishii" target="taxi_driver" type="double" value="17.0"></edge>
+                <edge source="toshihiro_ouchi" target="taxi_driver" type="double" value="17.0"></edge>
+                <edge source="kiyohide_hayakawa" target="tomoko_matsumoto" type="double" value="17.0"></edge>
+                <edge source="shigeo_sugimoto" target="tomoko_matsumoto" type="double" value="17.0"></edge>
+                <edge source="shoko_asahara" target="tomoko_matsumoto" type="double" value="17.0"></edge>
+                <edge source="kiyohide_hayakawa" target="tomomasa_nakagawa" type="double" value="17.0"></edge>
+                <edge source="satoshi_matsushita" target="tomomasa_nakagawa" type="double" value="17.0"></edge>
+                <edge source="seiichi_endo" target="tomomasa_nakagawa" type="double" value="17.0"></edge>
+                <edge source="zenji_yagisawa" target="tomomasa_nakagawa" type="double" value="17.0"></edge>
+                <edge source="masami_tsuchiya" target="tomomasa_nakagawa" type="double" value="17.0"></edge>
+                <edge source="satoru_hashimoto" target="tomomasa_nakagawa" type="double" value="17.0"></edge>
+                <edge source="tomomitsu_niimi" target="tomomasa_nakagawa" type="double" value="17.0"></edge>
+                <edge source="kiyohide_hayakawa" target="tomomitsu_niimi" type="double" value="17.0"></edge>
+                <edge source="yasuo_hayashi" target="tomomitsu_niimi" type="double" value="17.0"></edge>
+                <edge source="seiichi_endo" target="tomomitsu_niimi" type="double" value="17.0"></edge>
+                <edge source="tomomasa_nakagawa" target="tomomitsu_niimi" type="double" value="17.0"></edge>
+                <edge source="fumihiro_joyu" target="tsutsumi_sakamoto" type="double" value="17.0"></edge>
+                <edge source="kiyohide_hayakawa" target="tsutsumi_sakamoto" type="double" value="17.0"></edge>
+                <edge source="yoshihiro_inoue" target="tsutsumi_sakamoto" type="double" value="17.0"></edge>
+                <edge source="shin_hirata" target="v._baranov" type="double" value="17.0"></edge>
+                <edge source="yoshihiro_hara" target="v._baranov" type="double" value="17.0"></edge>
+                <edge source="kiyohide_hayakawa" target="v._baranov" type="double" value="17.0"></edge>
+                <edge source="kiyohide_hayakawa" target="yasuo_hayashi" type="double" value="17.0"></edge>
+                <edge source="tomomitsu_niimi" target="yasuo_hayashi" type="double" value="17.0"></edge>
+                <edge source="hideaki_yasuda" target="yasuo_hayashi" type="double" value="17.0"></edge>
+                <edge source="shigeo_sugimoto" target="yasuo_hayashi" type="double" value="17.0"></edge>
+                <edge source="tomoko_matsumoto" target="yasuo_hayashi" type="double" value="17.0"></edge>
+                <edge source="fumihiro_joyu" target="yoshinobu_aoyama" type="double" value="17.0"></edge>
+                <edge source="oleg_lobov" target="yoshinobu_aoyama" type="double" value="17.0"></edge>
+                <edge source="shoko_asahara" target="yoshinobu_aoyama" type="double" value="17.0"></edge>
+                <edge source="tsutsumi_sakamoto" target="satoko_sakamoto" type="double" value="17.0"></edge>
+                <edge source="tsutsumi_sakamoto" target="shoko_asahara" type="double" value="17.0"></edge>
+                <edge source="satoko_sakamoto" target="shoko_asahara" type="double" value="17.0"></edge>
+                <edge source="shinichiro_nakajima" target="university_professor" type="double" value="17.0"></edge>
+                <edge source="shinichiro_nakajima" target="aleksandr_rutskoy" type="double" value="17.0"></edge>
+                <edge source="university_professor" target="aleksandr_rutskoy" type="double" value="17.0"></edge>
+                <edge source="taxi_driver" target="tsutsumi_sakamoto" type="double" value="17.0"></edge>
+                <edge source="taxi_driver" target="satoko_sakamoto" type="double" value="17.0"></edge>
+                <edge source="taxi_driver" target="shoko_asahara" type="double" value="17.0"></edge>
+                <edge source="fujio_hori" target="shoko_asahara" type="double" value="17.0"></edge>
+                <edge source="fujio_hori" target="hisako_ishii" type="double" value="17.0"></edge>
+                <edge source="fujio_hori" target="yoshinobu_aoyama" type="double" value="17.0"></edge>
+                <edge source="hiroko_nakayama" target="[fnu]_nakayama" type="double" value="17.0"></edge>
+                <edge source="shoko_asahara" target="follower_b" type="double" value="17.0"></edge>
+                <edge source="fujio_hori" target="fumihiro_joyu" type="double" value="17.0"></edge>
+                <edge source="shoko_asahara" target="hideaki_yasuda" type="double" value="17.0"></edge>
+                <edge source="shoko_asahara" target="hiroko_nakayama" type="double" value="17.0"></edge>
+                <edge source="shoko_asahara" target="hisako_ishii" type="double" value="17.0"></edge>
+                <edge source="shoko_asahara" target="kazuaki_okazaki" type="double" value="17.0"></edge>
+                <edge source="shoko_asahara" target="kenichi_hirose" type="double" value="17.0"></edge>
+                <edge source="shoko_asahara" target="kiyohide_hayakawa" type="double" value="17.0"></edge>
+                <edge source="koji_hirota" target="koichi_ninomiya" type="double" value="17.0"></edge>
+                <edge source="naoto_nishizawa" target="koichi_ninomiya" type="double" value="17.0"></edge>
+                <edge source="shoko_asahara" target="koichi_ninomiya" type="double" value="17.0"></edge>
+                <edge source="naoto_nishizawa" target="koji_hirota" type="double" value="17.0"></edge>
+                <edge source="shoko_asahara" target="koji_hirota" type="double" value="17.0"></edge>
+                <edge source="fujio_hori" target="masami_tsuchiya" type="double" value="17.0"></edge>
+                <edge source="shoko_asahara" target="masami_tsuchiya" type="double" value="17.0"></edge>
+                <edge source="fujio_hori" target="naoto_nishizawa" type="double" value="17.0"></edge>
+                <edge source="koichi_ninomiya" target="naoto_nishizawa" type="double" value="17.0"></edge>
+                <edge source="koji_hirota" target="naoto_nishizawa" type="double" value="17.0"></edge>
+                <edge source="shoko_asahara" target="naoto_nishizawa" type="double" value="17.0"></edge>
+                <edge source="koji_hirota" target="seiichi_endo" type="double" value="17.0"></edge>
+                <edge source="shoko_asahara" target="seiichi_endo" type="double" value="17.0"></edge>
+                <edge source="fujio_hori" target="shigeo_sugimoto" type="double" value="17.0"></edge>
+                <edge source="fujio_hori" target="shin_hirata" type="double" value="17.0"></edge>
+                <edge source="fujio_hori" target="taxi_driver" type="double" value="17.0"></edge>
+                <edge source="fujio_hori" target="tomoko_matsumoto" type="double" value="17.0"></edge>
+                <edge source="shoko_asahara" target="tomomitsu_niimi" type="double" value="17.0"></edge>
+                <edge source="shoko_asahara" target="toshihiro_ouchi" type="double" value="17.0"></edge>
+                <edge source="shoko_asahara" target="yasuo_hayashi" type="double" value="17.0"></edge>
+            </graph>
+               <graph sourceType="agent" targetType="resource" id="resource_network">
+               <edge source='toshihiro_ouchi'  target='PCl3' ></edge>
+                <edge source='yasuo_hayashi'  target='methanol' ></edge>
+                <edge source='yoshihiro_inoue'  target='amine' ></edge>
+                <edge source='yoshinobu_aoyama'  target='TMP' ></edge>
+                <edge source='kazuyoshi_takizawa'  target='iodide' ></edge>
+                <edge source='yasuo_hayashi'  target='DMMP' ></edge>
+                <edge source='yoshihiro_inoue'  target='chloride' ></edge>
+                <edge source='shoko_asahara'  target='dichlor' ></edge>
+                <edge source='aleksandr_rutskoy'  target='dichlor' ></edge>
+                <edge source='tomomitsu_niimi'  target='sodium fluoride' ></edge>
+                <edge source='shoko_asahara'  target='difluor' ></edge>
+                <edge source='zenji_yagisawa'  target='IPA' ></edge>
+                <edge source='kiyohide_hayakawa'  target='glass-lined storage container' ></edge>
+                <edge source='masahiro_tominaga'  target='heresite storage container' ></edge>
+                <edge source='tomomasa_nakagawa'  target='glass holding tank' ></edge>
+                <edge source='masami_tsuchiya'  target='glass holding tank' ></edge>
+                <edge source='satoru_hashimoto'  target='glass holding tank' ></edge>
+                <edge source='tomomitsu_niimi'  target='settling tank lined with PE' ></edge>
+                <edge source='yoshihiro_hara'  target='glass lined reactor' ></edge>
+                <edge source='dalai_lama'  target='glass lined reactor' ></edge>
+                <edge source='fumihiro_joyu'  target='glass distillation column' ></edge>
+                <edge source='hideo_murai'  target='glass distillation column' ></edge>
+                <edge source='hisako_ishii'  target='PE lined drums' ></edge>
+                <edge source='kazuaki_okazaki'  target='PE lined neutralization tank' ></edge>
+                <edge source='kenichi_hirose'  target='glass rotoevaporator with still and receiving flask' ></edge>
+                <edge source='kiyohide_hayakawa'  target='glass scrubber' ></edge>
+                <edge source='masahiro_tominaga'  target='glass scrubber' ></edge>
+                <edge source='masami_tsuchiya'  target='hastelloy or Ni alloy reactor' ></edge>
+                <edge source='satoru_hatamoto'  target='hastelloy or Ni alloy reactor' ></edge>
+                <edge source='tomoko_matsumoto'  target='steel storage tank' ></edge>
+                <edge source='toru_toyoda'  target='hastelloy or Ni alloy distillation column' ></edge>
+                <edge source='yasuo_hayashi'  target='glass feed tank' ></edge>
+                <edge source='toshihiro_ouchi'  target='glass PE or PP lined holding tank' ></edge>
+                <edge source='yasuo_hayashi'  target='glass PE or PP lined mixing drum' ></edge>
+   <edge source='yoshihiro_inoue'  target='PCl3' ></edge>
+   <edge source='yoshinobu_aoyama'  target='methanol' ></edge>
+   <edge source='kazuyoshi_takizawa'  target='amine' ></edge>
+   <edge source='yasuo_hayashi'  target='TMP' ></edge>
+   <edge source='yoshihiro_inoue'  target='iodide' ></edge>
+   <edge source='shoko_asahara'  target='DMMP' ></edge>
+   <edge source='aleksandr_rutskoy'  target='chloride' ></edge>
+   <edge source='tomomitsu_niimi'  target='dichlor' ></edge>
+   <edge source='shoko_asahara'  target='dichlor' ></edge>
+   <edge source='zenji_yagisawa'  target='sodium fluoride' ></edge>
+   <edge source='kiyohide_hayakawa'  target='difluor' ></edge>
+   <edge source='masahiro_tominaga'  target='IPA' ></edge>
+   <edge source='tomomasa_nakagawa'  target='glass-lined storage container' ></edge>
+   <edge source='masami_tsuchiya'  target='heresite storage container' ></edge>
+   <edge source='satoru_hashimoto'  target='glass holding tank' ></edge>
+   <edge source='tomomitsu_niimi'  target='glass holding tank' ></edge>
+   <edge source='yoshihiro_hara'  target='glass holding tank' ></edge>
+   <edge source='dalai_lama'  target='settling tank lined with PE' ></edge>
+   <edge source='fumihiro_joyu'  target='glass lined reactor' ></edge>
+   <edge source='hideo_murai'  target='glass lined reactor' ></edge>
+   <edge source='hisako_ishii'  target='glass distillation column' ></edge>
+   <edge source='kazuaki_okazaki'  target='glass distillation column' ></edge>
+   <edge source='kenichi_hirose'  target='PE lined drums' ></edge>
+   <edge source='kiyohide_hayakawa'  target='PE lined neutralization tank' ></edge>
+   <edge source='masahiro_tominaga'  target='glass rotoevaporator with still and receiving flask' ></edge>
+   <edge source='masami_tsuchiya'  target='glass scrubber' ></edge>
+   <edge source='satoru_hatamoto'  target='glass scrubber' ></edge>
+   <edge source='tomoko_matsumoto'  target='hastelloy or Ni alloy reactor' ></edge>
+   <edge source='toru_toyoda'  target='hastelloy or Ni alloy reactor' ></edge>
+   <edge source='yasuo_hayashi'  target='steel storage tank' ></edge>
+   <edge source='toshihiro_ouchi'  target='hastelloy or Ni alloy distillation column' ></edge>
+   <edge source='yasuo_hayashi'  target='glass feed tank' ></edge>
+   <edge source='yoshihiro_inoue'  target='glass PE or PP lined holding tank' ></edge>
+   <edge source='yoshinobu_aoyama'  target='glass PE or PP lined mixing drum' ></edge>
+</graph>
+<graph sourceType="task" targetType="resource" id="dependencies">
+<edge source='produce TMP'  target='PCl3' />
+<edge source='produce TMP'  target='methanol' />
+<edge source='produce TMP'  target='amine' />
+<edge source='produce DMMP'  target='iodide' />
+<edge source='produce dichlor'  target='chloride' />
+<edge source='produce difluor'  target='sodium fluoride' />
+<edge source='produce sarin'  target='IPA' />
+<edge source='produce TMP'  target='glass-lined storage container' />
+<edge source='produce TMP'  target='heresite storage container' />
+<edge source='produce TMP'  target='glass holding tank' />
+<edge source='produce DMMP'  target='glass holding tank' />
+<edge source='produce dichlor'  target='glass holding tank' />
+<edge source='produce TMP'  target='settling tank lined with PE' />
+<edge source='produce TMP'  target='glass lined reactor' />
+<edge source='produce dichlor'  target='glass lined reactor' />
+<edge source='produce TMP'  target='glass distillation column' />
+<edge source='produce dichlor'  target='glass distillation column' />
+<edge source='produce TMP'  target='PE lined drums' />
+<edge source='produce TMP'  target='PE lined neutralization tank' />
+<edge source='produce DMMP'  target='glass rotoevaporator with still and receiving flask' />
+<edge source='produce dichlor'  target='glass scrubber' />
+<edge source='produce sarin'  target='glass scrubber' />
+<edge source='produce difluor'  target='hastelloy or Ni alloy reactor' />
+<edge source='produce sarin'  target='hastelloy or Ni alloy reactor' />
+<edge source='produce difluor'  target='steel storage tank' />
+<edge source='produce sarin'  target='hastelloy or Ni alloy distillation column' />
+<edge source='produce sarin'  target='glass feed tank' />
+<edge source='produce sarin'  target='glass PE or PP lined holding tank' />
+<edge source='produce sarin'  target='glass PE or PP lined mixing drum' />
+<edge source='produce DMMP'  target='produce TMP' />
+<edge source='produce dichlor'  target='produce DMMP' />
+<edge source='produce difluor'  target='produce dichlor' />
+<edge source='produce sarin'  target='produce dichlor' />
+<edge source='produce sarin'  target='produce difluor' />
+</graph>
+</networks> 	 	
+  <messages>
+   <message from="GameMaster" to="shoko_asahara" timeEnter="1.2" verb="TakeTask">
+   <properties>
+   <property name="activity" type="main.Xtask" value="produce sarin" />
+   </properties>
+   </message>
+      </messages>
+</MetaMatrix>
+</DynamicNetwork>
+

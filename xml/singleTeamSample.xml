@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<MetaMatrix>
+<teams>
+<team id="red">
+    <nodes>
+        <nodeset id="agent" type="agent">
+            <node id="A1" subtype="Strategist" />
+            <node id="A2" subtype="Operative" />
+            <node id="A3" subtype="Operative" />
+            <node id="A4" subtype="Operative" />
+            <node id="A5" subtype="Operative" />
+            <node id="A6" subtype="Operative" />
+            <node id="A7" subtype="Operative" />
+            <node id="A8" subtype="Operative" />
+            <node id="A9" subtype="Operative" />   
+            <node id="A10" subtype="Operative" />
+        </nodeset>
+        <nodeset id="type" type="task">
+            <node id="T1" />
+            <node id="T2" />
+            <node id="T3" />
+            <node id="T4" />
+            <node id="T5" />
+            <node id="T6" />
+            <node id="T7" />
+        </nodeset>
+        <nodeset id="resource" type="resource">
+            <node id="R1" />
+            <node id="R2" />
+            <node id="R3" />
+            <node id="R4" />
+            <node id="R5" />
+	    <node id="R6" />
+            <node id="R7" />
+        </nodeset>
+        <nodeset id="knowledge" type="knowledge">
+            <node id="K1" />
+            <node id="K2" />
+            <node id="K3" />
+            <node id="K4" />
+            <node id="K5" />
+            <node id="K6" />
+            <node id="K7" />
+        </nodeset>
+    </nodes>
+    <networks>
+        <graph sourceType="agent" targetType="agent" id="social_network">
+            <edge source="A1" target="A2" type="java.lang.Double" value="1.000000" />
+            <edge source="A1" target="A3" type="java.lang.Double" value="1.000000" />
+            <edge source="A1" target="A6" type="java.lang.Double" value="1.000000" />
+            <edge source="A2" target="A3" type="java.lang.Double" value="1.000000" />
+            <edge source="A2" target="A4" type="java.lang.Double" value="1.000000" />
+            <edge source="A3" target="A4" type="java.lang.Double" value="1.000000" />
+            <edge source="A3" target="A8" type="java.lang.Double" value="1.000000" />
+            <edge source="A3" target="A9" type="java.lang.Double" value="1.000000" />
+            <edge source="A5" target="A6" type="java.lang.Double" value="1.000000" />
+            <edge source="A5" target="A7" type="java.lang.Double" value="1.000000" />
+            <edge source="A5" target="A8" type="java.lang.Double" value="1.000000" />
+            <edge source="A6" target="A7" type="java.lang.Double" value="1.000000" />
+            <edge source="A6" target="A8" type="java.lang.Double" value="1.000000" />
+            <edge source="A6" target="A9" type="java.lang.Double" value="1.000000" />
+            <edge source="A6" target="A10" type="java.lang.Double" value="1.000000" />
+            <edge source="A7" target="A8" type="java.lang.Double" value="1.000000" />
+            <edge source="A9" target="A10" type="java.lang.Double" value="1.000000" />
+        </graph>
+        <graph sourceType="agent" targetType="knowledge" id="knowledge_network">
+            <edge source="A2" target="K5" type="java.lang.Double" value="1.000000" />
+            <edge source="A3" target="K1" type="java.lang.Double" value="1.000000" />
+            <edge source="A4" target="K5" type="java.lang.Double" value="1.000000" />
+            <edge source="A5" target="K1" type="java.lang.Double" value="1.000000" />
+            <edge source="A6" target="K3" type="java.lang.Double" value="1.000000" />
+            <edge source="A7" target="K2" type="java.lang.Double" value="1.000000" />
+            <edge source="A8" target="K3" type="java.lang.Double" value="1.000000" />
+            <edge source="A9" target="K2" type="java.lang.Double" value="1.000000" />
+            <edge source="A10" target="K4" type="java.lang.Double" value="1.000000" />
+            <edge source="A1" target="K4" type="java.lang.Double" value="1.000000" />
+            <edge source="A2" target="K6" type="java.lang.Double" value="1.000000" />
+            <edge source="A6" target="K7" type="java.lang.Double" value="1.000000" />
+            <edge source="A3" target="K6" type="java.lang.Double" value="1.000000" />
+            <edge source="A7" target="K7" type="java.lang.Double" value="1.000000" />
+        </graph>
+        <graph sourceType="agent" targetType="resource" id="resource_network">
+            <edge source="A1" target="R1" type="java.lang.Double" value="1.000000" />
+            <edge source="A5" target="R1" type="java.lang.Double" value="1.000000" />
+            <edge source="A2" target="R2" type="java.lang.Double" value="1.000000" />
+            <edge source="A6" target="R2" type="java.lang.Double" value="1.000000" />
+            <edge source="A3" target="R3" type="java.lang.Double" value="1.000000" />
+            <edge source="A7" target="R3" type="java.lang.Double" value="1.000000" />
+            <edge source="A4" target="R4" type="java.lang.Double" value="1.000000" />
+            <edge source="A8" target="R4" type="java.lang.Double" value="1.000000" />
+            <edge source="A5" target="R5" type="java.lang.Double" value="1.000000" />
+            <edge source="A9" target="R5" type="java.lang.Double" value="1.000000" />
+            <edge source="A2" target="R7" type="java.lang.Double" value="1.000000" />
+            <edge source="A4" target="R6" type="java.lang.Double" value="1.000000" />
+            <edge source="A5" target="R7" type="java.lang.Double" value="1.000000" />
+            <edge source="A9" target="R6" type="java.lang.Double" value="1.000000" />
+        </graph>
+        <graph sourceType="task" targetType="resource" id="dependencies">
+            <edge source="T1" target="K1" type="java.lang.Double" value="1.000000" />
+            <edge source="T1" target="R1" type="java.lang.Double" value="1.000000" />
+            <edge source="T2" target="R2" type="java.lang.Double" value="1.000000" />
+            <edge source="T2" target="K2" type="java.lang.Double" value="1.000000" />
+            <edge source="T3" target="R3" type="java.lang.Double" value="1.000000" />
+            <edge source="T3" target="K3" type="java.lang.Double" value="1.000000" />
+            <edge source="T4" target="R4" type="java.lang.Double" value="1.000000" />
+            <edge source="T4" target="K4" type="java.lang.Double" value="1.000000" />
+            <edge source="T5" target="R5" type="java.lang.Double" value="1.000000" />
+            <edge source="T5" target="K5" type="java.lang.Double" value="1.000000" />
+            <edge source="T6" target="R6" type="java.lang.Double" value="1.000000" />
+            <edge source="T6" target="K6" type="java.lang.Double" value="1.000000" />
+            <edge source="T7" target="R7" type="java.lang.Double" value="1.000000" />
+            <edge source="T7" target="K7" type="java.lang.Double" value="1.000000" />
+            <edge source="T1" target="T4" type="java.lang.Double" value="1.000000" />
+            <edge source="T2" target="T4" type="java.lang.Double" value="1.000000" />   
+            <edge source="T2" target="T5" type="java.lang.Double" value="1.000000" />
+            <edge source="T3" target="T4" type="java.lang.Double" value="1.000000" />
+            <edge source="T3" target="T5" type="java.lang.Double" value="1.000000" />               
+            <edge source="T5" target="T6" type="java.lang.Double" value="1.000000" />               
+            <edge source="T6" target="T7" type="java.lang.Double" value="1.000000" />                               
+        </graph>
+    </networks>
+</team>
+</teams>
+   <messages>
+   </messages>
+   <payoffs>
+   <payoff name="T1">
+	<leaf A1="1" />
+   </payoff>
+   <payoff name="T2">
+	<leaf A1="2" />
+   </payoff>
+   <payoff name="T3">
+	<leaf A1="3" />
+   </payoff>
+   </payoffs>
+</MetaMatrix>

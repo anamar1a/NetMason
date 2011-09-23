@@ -1,0 +1,10 @@
+prefix;runID;numStrategists;scenarioName;beta;delta
+null;1;2;1;null;0
+prefix;runID;numStrategists;scenarioName;beta;delta
+null;1;2;1;null;0
+prefix;runID;numStrategists;scenarioName;beta;delta
+null;1;2;1;null;0
+prefix;runID;numStrategists;scenarioName;beta;delta
+null;1;2;1;null;0
+prefix;runID;numStrategists;scenarioName;beta;delta
+null;1;2;1;null;0

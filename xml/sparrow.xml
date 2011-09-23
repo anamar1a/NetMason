@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<MetaMatrix>
+<teams>
+    <team id="red">
+    <nodes>
+        <nodeset id="agent" type="agent">
+            <node id="RA1" subtype="Strategist" />
+        </nodeset>
+        <nodeset id="type" type="task">
+            <node id="RT1" />
+            <node id="RT2" />
+            <node id="RT3" />
+        </nodeset>
+    </nodes>
+    <networks>
+    </networks>
+   </team>
+   <team id="blue">
+	<nodes>
+        <nodeset id="agent" type="agent">
+            <node id="BA1" subtype="Strategist" />
+        </nodeset>
+        <nodeset id="type" type="task">
+            <node id="BT1" />
+            <node id="BT2" />
+            <node id="BT3" />
+        </nodeset>
+    </nodes>
+    <networks>
+    </networks>
+   </team>
+   </teams>
+   <messages>
+   </messages>
+   <payoffs>
+	   <payoff name="RT1">
+	   	<payoff name="BT1">
+		   	<leaf RA1="0" BA1="0"/>
+	   	</payoff>
+	   	<payoff name="BT2">
+	   		<leaf RA1="1" BA1="-1"/>
+	   	</payoff>
+	   	<payoff name="BT3">
+	   		<leaf RA1="-1" BA1="1"/>
+	   	</payoff>
+	   </payoff> 
+	   <payoff name="RT2">
+	   	<payoff name="BT1">
+	   		<leaf RA1="-1" BA1="1"/>
+	   	</payoff>
+	   	<payoff name="BT2">
+	   		<leaf RA1="0" BA1="0"/>
+	   	</payoff>
+	   	<payoff name="BT3">
+	   		<leaf RA1="1" BA1="-1"/>
+	   	</payoff>
+	   </payoff>
+	   <payoff name="RT3">
+	   	<payoff name="BT1">
+	   		<leaf RA1="1" BA1="-1"/>
+	   	</payoff>
+	   	<payoff name="BT2">
+	   		<leaf RA1="-1" BA1="1"/>
+	   	</payoff>
+	   	<payoff name="BT3">
+	   		<leaf RA1="0" BA1="0"/>
+	   	</payoff>
+	   </payoff>
+   </payoffs>
+</MetaMatrix>

@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<MetaMatrix>
+<teams>
+<team id="red">
+    <nodes>
+        <nodeset id="agent" type="agent">
+            <node id="Mohammed_Rashed_Daoud_al-Owhali" subtype="Operative" />
+            <node id="Khalfan_Khamis_Mohamed" subtype="Operative" />
+            <node id="Mohammed_Sadiq_Odeh" subtype="Operative" />
+            <node id="Ahmed_the_German" subtype="Operative" />
+            <node id="Fazul_Abdullah_Mohammed" subtype="Operative" />
+            <node id="Wadih_al_Hage" subtype="Operative" />
+            <node id="Usama_Bin_Ladin" subtype="Operative" />
+            <node id="Ali_Mohammed" subtype="Operative" />
+            <node id="Ahmed_Khalfan_Ghailani" subtype="Operative" />
+            <node id="Mohammed_Salim" subtype="Operative" />
+            <node id="al-Fadl" subtype="Operative" />
+            <node id="al-Fawwaz" subtype="Operative" />
+            <node id="Jihad_Mohammed_Ali_(Azzam)" subtype="Operative" />
+            <node id="Abouhalima" subtype="Operative" />
+            <node id="Abdullah_Ahmed_Abdullah_(Saleh)" subtype="Operative" />
+            <node id="Abdal_Rahman" subtype="Operative" />
+        </nodeset>
+        <nodeset id="type" type="task">
+            <node id="surveillence" />
+            <node id="weapon_training" />
+            <node id="driving_training" />
+            <node id="bomb_prep" />
+            <node id="bombing" />
+        </nodeset>
+        <nodeset id="resource" type="resource">
+            <node id="building_for_bombmaking" />
+            <node id="money" />
+            <node id="bomb_material" />
+            <node id="truck" />
+        </nodeset>
+        <nodeset id="knowledge" type="knowledge">
+            <node id="religious_extremism" />
+            <node id="weapons_expertise" />
+            <node id="surveillance_expertise" />
+            <node id="media_consultant" />
+        </nodeset>
+    </nodes>
+    <networks>
+        <graph sourceType="agent" targetType="agent" id="social_network">
+            <edge source="Mohammed_Rashed_Daoud_al-Owhali" target="Usama_Bin_Ladin" type="java.lang.Double" value="1.000000">
+				<properties>
+					<property name="trust" type="java.lang.Double" value="0.75" />
+				</properties>
+            </edge>
+            <edge source="Mohammed_Rashed_Daoud_al-Owhali" target="Jihad_Mohammed_Ali_(Azzam)" type="java.lang.Double" value="6.000000" >
+            	<properties>
+					<property name="trust"  type="java.lang.Double" value="0.75" />
+				</properties>
+            </edge>
+            <edge source="Mohammed_Rashed_Daoud_al-Owhali" target="Abdullah_Ahmed_Abdullah_(Saleh)" type="java.lang.Double" value="6.000000" >
+            	<properties>
+					<property name="trust" type="java.lang.Double" value="0.75" />
+				</properties>
+            </edge>
+            <edge source="Mohammed_Rashed_Daoud_al-Owhali" target="Abdal_Rahman" type="java.lang.Double" value="1.000000" >
+            	<properties>
+					<property name="trust"  type="java.lang.Double" value="0.75" />
+				</properties>
+            </edge>
+            <edge source="Khalfan_Khamis_Mohamed" target="Wadih_al_Hage" type="java.lang.Double" value="5.000000" >
+            	<properties>
+					<property name="trust" type="java.lang.Double"  value="0.75" />
+				</properties>
+            </edge>
+            <edge source="Mohammed_Sadiq_Odeh" target="Wadih_al_Hage" type="java.lang.Double" value="1.000000" >
+            	<properties>
+					<property name="trust" type="java.lang.Double" value="0.75" />
+				</properties>
+            </edge>
+            <edge source="Mohammed_Sadiq_Odeh" target="abouhalima" type="java.lang.Double" value="5.000000" >
+            	<properties>
+					<property name="trust" type="java.lang.Double" value="0.75" />
+				</properties>
+            </edge>
+            <edge source="Ahmed_the_German" target="Abdullah_Ahmed_Abdullah_(Saleh)" type="java.lang.Double" value="6.000000" >
+            	<properties>
+					<property name="trust" type="java.lang.Double" value="0.75" />
+				</properties>
+            </edge>
+            <edge source="Fazul_Abdullah_Mohammed" target="Wadih_al_Hage" type="java.lang.Double" value="6.000000" >
+            	<properties>
+					<property name="trust" type="java.lang.Double" value="0.75" />
+				</properties>
+            </edge>
+            <edge source="Fazul_Abdullah_Mohammed" target="Usama_Bin_Ladin" type="java.lang.Double" value="1.000000" >
+            	<properties>
+					<property name="trust" type="java.lang.Double" value="0.75" />
+				</properties>
+            </edge>
+            <edge source="Wadih_al_Hage" target="Mohammed_Sadiq_Odeh" type="java.lang.Double" value="1.000000" >
+            	<properties>
+					<property name="trust" type="java.lang.Double" value="0.75" />
+				</properties>
+            </edge>
+            <edge source="Wadih_al_Hage" target="Fazul_Abdullah_Mohammed" type="java.lang.Double" value="1.000000" >
+            	<properties>
+					<property name="trust" type="java.lang.Double" value="0.75" />
+				</properties>
+            </edge>
+            <edge source="Wadih_al_Hage" target="Usama_Bin_Ladin" type="java.lang.Double" value="6.000000" >
+            	<properties>
+					<property name="trust" type="java.lang.Double" value="0.75" />
+				</properties>
+            </edge>
+            <edge source="Wadih_al_Hage" target="Ali_Mohammed" type="java.lang.Double" value="1.000000" >
+            	<properties>
+					<property name="trust" type="java.lang.Double" value="0.75" />
+				</properties>
+            </edge>
+            <edge source="Wadih_al_Hage" target="al-Fawwaz" type="java.lang.Double" value="1.000000" >
+            	<properties>
+					<property name="trust" type="java.lang.Double" value="0.75" />
+				</properties>
+			</edge>
+            <edge source="Wadih_al_Hage" target="abouhalima" type="java.lang.Double" value="1.000000" >
+            	<properties>
+					<property name="trust" type="java.lang.Double" value="0.75" />
+				</properties>
+            </edge>
+            <edge source="Usama_Bin_Ladin" target="Mohammed_Rashed_Daoud_al-Owhali" type="java.lang.Double" value="1.000000" >
+            	<properties>
+					<property name="trust" type="java.lang.Double" value="0.75" />
+				</properties>
+            </edge>
+            <edge source="Usama_Bin_Ladin" target="Fazul_Abdullah_Mohammed" type="java.lang.Double" value="1.000000" >
+            	<properties>
+					<property name="trust" type="java.lang.Double" value="0.75" />
+				</properties>
+            </edge>
+            <edge source="Usama_Bin_Ladin" target="Wadih_al_Hage" type="java.lang.Double" value="6.000000" >
+            	<properties>
+					<property name="trust" type="java.lang.Double" value="0.75" />
+				</properties>
+            </edge>
+            <edge source="Usama_Bin_Ladin" target="Ali_Mohammed" type="java.lang.Double" value="6.000000" >
+            	<properties>
+					<property name="trust"  type="java.lang.Double" value="0.75" />
+				</properties>
+            </edge>
+            <edge source="Usama_Bin_Ladin" target="al-Fawwaz" type="java.lang.Double" value="1.000000" >
+            	<properties>
+					<property name="trust" type="java.lang.Double" value="0.75" />
+				</properties>
+            </edge>
+            <edge source="Ali_Mohammed" target="Wadih_al_Hage" type="java.lang.Double" value="1.000000" >
+            	<properties>
+					<property name="trust" type="java.lang.Double" value="0.75" />
+				</properties>
+            </edge>
+            <edge source="Ali_Mohammed" target="Usama_Bin_Ladin" type="java.lang.Double" value="6.000000" >
+            	<properties>
+					<property name="trust"  type="java.lang.Double" value="0.75" />
+				</properties>
+            </edge>
+            <edge source="Ahmed_Khalfan_Ghailani" target="Mohammed_Rashed_Daoud_al-Owhali" type="java.lang.Double" value="5.000000" >
+            	<properties>
+					<property name="trust" type="java.lang.Double"  value="0.75" />
+				</properties>
+            </edge>
+            <edge source="Mohammed_Salim" target="abouhalima" type="java.lang.Double" value="5.000000" >
+            	<properties>
+					<property name="trust" type="java.lang.Double" value="0.75" />
+				</properties>
+            </edge>
+            <edge source="al-Fadl" target="Abdal_Rahman" type="java.lang.Double" value="5.000000" >
+            	<properties>
+					<property name="trust" type="java.lang.Double" value="0.75" />
+				</properties>
+            </edge>
+            <edge source="al-Fawwaz" target="Wadih_al_Hage" type="java.lang.Double" value="1.000000" >
+            	<properties>
+					<property name="trust"  type="java.lang.Double" value="0.75" />
+				</properties>
+			</edge>
+            <edge source="al-Fawwaz" target="Usama_Bin_Ladin" type="java.lang.Double" value="6.000000" >
+            	<properties>
+					<property name="trust" type="java.lang.Double" value="0.75" />
+				</properties>
+            </edge>
+            <edge source="Jihad_Mohammed_Ali_(Azzam)" target="Mohammed_Rashed_Daoud_al-Owhali" type="java.lang.Double" value="7.000000" >
+            	<properties>
+					<property name="trust" type="java.lang.Double" value="0.75" />
+				</properties>
+            </edge>
+            <edge source="abouhalima" target="Wadih_al_Hage" type="java.lang.Double" value="1.000000" >
+            	<properties>
+					<property name="trust" type="java.lang.Double" value="0.75" />
+				</properties>
+            </edge>
+            <edge source="abouhalima" target="Mohammed_Salim" type="java.lang.Double" value="10.000000" >
+            	<properties>
+					<property name="trust" type="java.lang.Double" value="0.75" />
+				</properties>
+            </edge>
+            <edge source="Abdullah_Ahmed_Abdullah_(Saleh)" target="Mohammed_Rashed_Daoud_al-Owhali" type="java.lang.Double" value="6.000000" >
+            	<properties>
+					<property name="trust" type="java.lang.Double" value="0.75" />
+				</properties>
+            </edge>
+            <edge source="Abdullah_Ahmed_Abdullah_(Saleh)" target="Mohammed_Sadiq_Odeh" type="java.lang.Double" value="1.000000" >
+            	<properties>
+					<property name="trust" type="java.lang.Double" value="0.75" />
+				</properties>
+            </edge>
+            <edge source="Abdullah_Ahmed_Abdullah_(Saleh)" target="Abdal_Rahman" type="java.lang.Double" value="1.000000" >
+            	<properties>
+					<property name="trust" type="java.lang.Double" value="0.75" />
+				</properties>
+            </edge>
+            <edge source="Abdal_Rahman" target="Mohammed_Rashed_Daoud_al-Owhali" type="java.lang.Double" value="6.000000" >
+            	<properties>
+					<property name="trust" type="java.lang.Double" value="0.75" />
+				</properties>
+            </edge>
+            <edge source="Abdal_Rahman" target="Abdullah_Ahmed_Abdullah_(Saleh)" type="java.lang.Double" value="1.000000" >
+            	<properties>
+					<property name="trust" type="java.lang.Double" value="0.75" />
+				</properties>
+            </edge>
+        </graph>
+        <graph sourceType="agent" targetType="knowledge" id="knowledge_network">
+            <edge source="Mohammed_Rashed_Daoud_al-Owhali" target="religious_extremism" type="java.lang.Double" value="1.000000" />
+            <edge source="Mohammed_Rashed_Daoud_al-Owhali" target="weapons_expertise" type="java.lang.Double" value="1.000000" />
+            <edge source="Mohammed_Rashed_Daoud_al-Owhali" target="surveillance_expertise" type="java.lang.Double" value="1.000000" />
+            <edge source="Mohammed_Rashed_Daoud_al-Owhali" target="media_consultant" type="java.lang.Double" value="0.000000" />
+            <edge source="Khalfan_Khamis_Mohamed" target="weapons_expertise" type="java.lang.Double" value="1.000000" />
+            <edge source="Khalfan_Khamis_Mohamed" target="surveillance_expertise" type="java.lang.Double" value="1.000000" />
+            <edge source="Mohammed_Sadiq_Odeh" target="religious_extremism" type="java.lang.Double" value="1.000000" />
+            <edge source="Mohammed_Sadiq_Odeh" target="weapons_expertise" type="java.lang.Double" value="1.000000" />
+            <edge source="Mohammed_Sadiq_Odeh" target="surveillance_expertise" type="java.lang.Double" value="1.000000" />
+            <edge source="Fazul_Abdullah_Mohammed" target="religious_extremism" type="java.lang.Double" value="1.000000" />
+            <edge source="Fazul_Abdullah_Mohammed" target="weapons_expertise" type="java.lang.Double" value="1.000000" />
+            <edge source="Fazul_Abdullah_Mohammed" target="surveillance_expertise" type="java.lang.Double" value="1.000000" />
+            <edge source="Wadih_al_Hage" target="religious_extremism" type="java.lang.Double" value="1.000000" />
+            <edge source="Wadih_al_Hage" target="weapons_expertise" type="java.lang.Double" value="1.000000" />
+            <edge source="Usama_Bin_Ladin" target="religious_extremism" type="java.lang.Double" value="1.000000" />
+            <edge source="Usama_Bin_Ladin" target="weapons_expertise" type="java.lang.Double" value="0.000000" />
+            <edge source="Usama_Bin_Ladin" target="media_consultant" type="java.lang.Double" value="1.000000" />
+            <edge source="Ali_Mohammed" target="religious_extremism" type="java.lang.Double" value="1.000000" />
+            <edge source="Ali_Mohammed" target="surveillance_expertise" type="java.lang.Double" value="1.000000" />
+            <edge source="Mohammed_Salim" target="religious_extremism" type="java.lang.Double" value="1.000000" />
+            <edge source="Mohammed_Salim" target="weapons_expertise" type="java.lang.Double" value="1.000000" />
+            <edge source="al-Fadl" target="religious_extremism" type="java.lang.Double" value="1.000000" />
+            <edge source="al-Fadl" target="weapons_expertise" type="java.lang.Double" value="1.000000" />
+            <edge source="al-Fawwaz" target="media_consultant" type="java.lang.Double" value="1.000000" />
+            <edge source="Jihad_Mohammed_Ali_(Azzam)" target="religious_extremism" type="java.lang.Double" value="1.000000" />
+            <edge source="Jihad_Mohammed_Ali_(Azzam)" target="weapons_expertise" type="java.lang.Double" value="1.000000" />
+            <edge source="Abouhalima" target="religious_extremism" type="java.lang.Double" value="1.000000" />
+            <edge source="Abouhalima" target="surveillance_expertise" type="java.lang.Double" value="0.000000" />
+            <edge source="Abdullah_Ahmed_Abdullah_(Saleh)" target="surveillance_expertise" type="java.lang.Double" value="1.000000" />
+            <edge source="Abdal_Rahman" target="religious_extremism" type="java.lang.Double" value="1.000000" />
+        </graph>
+        <graph sourceType="agent" targetType="resource" id="resource_network">
+            <edge source="Khalfan_Khamis_Mohamed" target="building_for_bombmaking" type="java.lang.Double" value="1.000000" />
+            <edge source="Mohammed_Sadiq_Odeh" target="building_for_bombmaking" type="java.lang.Double" value="1.000000" />
+            <edge source="Fazul_Abdullah_Mohammed" target="building_for_bombmaking" type="java.lang.Double" value="1.000000" />
+            <edge source="Fazul_Abdullah_Mohammed" target="bomb_material" type="java.lang.Double" value="1.000000" />
+            <edge source="Wadih_al_Hage" target="bomb_material" type="java.lang.Double" value="1.000000" />
+            <edge source="Usama_Bin_Ladin" target="money" type="java.lang.Double" value="1.000000" />
+            <edge source="Ahmed_Khalfan_Ghailani" target="building_for_bombmaking" type="java.lang.Double" value="1.000000" />
+            <edge source="Ahmed_Khalfan_Ghailani" target="truck" type="java.lang.Double" value="1.000000" />
+            <edge source="Mohammed_Salim" target="money" type="java.lang.Double" value="1.000000" />
+            <edge source="Abdullah_Ahmed_Abdullah_(Saleh)" target="building_for_bombmaking" type="java.lang.Double" value="1.000000" />
+            <edge source="Abdullah_Ahmed_Abdullah_(Saleh)" target="bomb_material" type="java.lang.Double" value="1.000000" />
+            <edge source="Abdullah_Ahmed_Abdullah_(Saleh)" target="truck" type="java.lang.Double" value="1.000000" />
+            <edge source="Abdal_Rahman" target="bomb_material" type="java.lang.Double" value="1.000000" />
+        </graph>
+         <graph sourceType="task" targetType="resource" id="dependencies">
+            <edge source="bomb_prep" target="building_for_bombmaking" type="java.lang.Double" value="1.000000" />
+            <edge source="bomb_prep" target="bomb_material" type="java.lang.Double" value="1.000000" />
+            <edge source="bomb_prep" target="money" type="java.lang.Double" value="1.000000" />
+            <edge source="bomb_prep" target="weapons_expertise" type="java.lang.Double" value="1.000000" />
+            <edge source="bombing" target="bomb_prep" type="java.lang.Double" value="1.000000" />
+            <edge source="bombing" target="weapon_training" type="java.lang.Double" value="1.000000" />
+            <edge source="bombing" target="surveillence" type="java.lang.Double" value="1.000000" />
+            <edge source="bombing" target="truck" type="java.lang.Double" value="1.000000" />
+            <edge source="surveillence" target="surveillance_expertise" type="java.lang.Double" value="1.000000" />
+            <edge source="weapon_training" target="money" type="java.lang.Double" value="1.000000" />
+        </graph>
+    </networks>
+    </team>
+    </teams>
+    <messages>
+   <message from="GameMaster" to="Usama_Bin_Ladin" timeEnter="1.2" verb="TakeTask">
+   <properties>
+   <property name="activity" type="main.Xtask" value="bombing" />
+   </properties>
+   </message>
+   </messages>
+   <payoffs>
+   <payoff name="bombing">
+	<leaf Usama_Bin_Ladin="1" />
+   </payoff>
+   </payoffs>
+  </MetaMatrix>

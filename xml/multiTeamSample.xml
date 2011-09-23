@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<MetaMatrix>
+<teams>
+    <team id="red">
+    <nodes>
+        <nodeset id="agent" type="agent">
+            <node id="RA1" subtype="Strategist" />
+            <node id="RA2" subtype="Operative" />
+            <node id="RA3" subtype="Operative" />
+            <node id="RA4" subtype="Operative" />
+            <node id="RA5" subtype="Operative" />
+            <node id="RA6" subtype="Operative" />
+            <node id="RA7" subtype="Operative" />
+            <node id="RA8" subtype="Operative" />
+            <node id="RA9" subtype="Operative" />   
+            <node id="RA10" subtype="Operative" />
+        </nodeset>
+        <nodeset id="type" type="task">
+            <node id="RT1" />
+            <node id="RT2" />
+            <node id="RT3" />
+            <node id="RT4" />
+            <node id="RT5" />
+            <node id="RT6" />
+            <node id="RT7" />
+        </nodeset>
+        <nodeset id="resource" type="resource">
+            <node id="R1" />
+            <node id="R2" />
+            <node id="R3" />
+            <node id="R4" />
+            <node id="R5" />
+	    <node id="R6" />
+            <node id="R7" />
+        </nodeset>
+        <nodeset id="knowledge" type="knowledge">
+            <node id="K1" />
+            <node id="K2" />
+            <node id="K3" />
+            <node id="K4" />
+            <node id="K5" />
+            <node id="K6" />
+            <node id="K7" />
+        </nodeset>
+    </nodes>
+    <networks>
+        <graph sourceType="agent" targetType="agent" id="social_network">
+            <edge source="RA1" target="RA2" type="java.lang.Double" value="1.000000" />
+            <edge source="RA1" target="RA3" type="java.lang.Double" value="1.000000" />
+            <edge source="RA1" target="RA6" type="java.lang.Double" value="1.000000" />
+            <edge source="RA2" target="RA3" type="java.lang.Double" value="1.000000" />
+            <edge source="RA2" target="RA4" type="java.lang.Double" value="1.000000" />
+            <edge source="RA3" target="RA4" type="java.lang.Double" value="1.000000" />
+            <edge source="RA3" target="RA8" type="java.lang.Double" value="1.000000" />
+            <edge source="RA3" target="RA9" type="java.lang.Double" value="1.000000" />
+            <edge source="RA5" target="RA6" type="java.lang.Double" value="1.000000" />
+            <edge source="RA5" target="RA7" type="java.lang.Double" value="1.000000" />
+            <edge source="RA5" target="RA8" type="java.lang.Double" value="1.000000" />
+            <edge source="RA6" target="RA7" type="java.lang.Double" value="1.000000" />
+            <edge source="RA6" target="RA8" type="java.lang.Double" value="1.000000" />
+            <edge source="RA6" target="RA9" type="java.lang.Double" value="1.000000" />
+            <edge source="RA6" target="RA10" type="java.lang.Double" value="1.000000" />
+            <edge source="RA7" target="RA8" type="java.lang.Double" value="1.000000" />
+            <edge source="RA9" target="RA10" type="java.lang.Double" value="1.000000" />
+        </graph>
+        <graph sourceType="agent" targetType="knowledge" id="knowledge_network">
+            <edge source="RA2" target="K5" type="java.lang.Double" value="1.000000" />
+            <edge source="RA3" target="K1" type="java.lang.Double" value="1.000000" />
+            <edge source="RA4" target="K5" type="java.lang.Double" value="1.000000" />
+            <edge source="RA5" target="K1" type="java.lang.Double" value="1.000000" />
+            <edge source="RA6" target="K3" type="java.lang.Double" value="1.000000" />
+            <edge source="RA7" target="K2" type="java.lang.Double" value="1.000000" />
+            <edge source="RA8" target="K3" type="java.lang.Double" value="1.000000" />
+            <edge source="RA9" target="K2" type="java.lang.Double" value="1.000000" />
+            <edge source="RA10" target="K4" type="java.lang.Double" value="1.000000" />
+            <edge source="RA5" target="K4" type="java.lang.Double" value="1.000000" />
+            <edge source="RA2" target="K6" type="java.lang.Double" value="1.000000" />
+            <edge source="RA6" target="K7" type="java.lang.Double" value="1.000000" />
+            <edge source="RA3" target="K6" type="java.lang.Double" value="1.000000" />
+            <edge source="RA7" target="K7" type="java.lang.Double" value="1.000000" />
+        </graph>
+        <graph sourceType="agent" targetType="resource" id="resource_network">
+            <edge source="RA4" target="R1" type="java.lang.Double" value="1.000000" />
+            <edge source="RA5" target="R1" type="java.lang.Double" value="1.000000" />
+            <edge source="RA2" target="R2" type="java.lang.Double" value="1.000000" />
+            <edge source="RA6" target="R2" type="java.lang.Double" value="1.000000" />
+            <edge source="RA3" target="R3" type="java.lang.Double" value="1.000000" />
+            <edge source="RA7" target="R3" type="java.lang.Double" value="1.000000" />
+            <edge source="RA4" target="R4" type="java.lang.Double" value="1.000000" />
+            <edge source="RA8" target="R4" type="java.lang.Double" value="1.000000" />
+            <edge source="RA5" target="R5" type="java.lang.Double" value="1.000000" />
+            <edge source="RA9" target="R5" type="java.lang.Double" value="1.000000" />
+            <edge source="RA2" target="R7" type="java.lang.Double" value="1.000000" />
+            <edge source="RA4" target="R6" type="java.lang.Double" value="1.000000" />
+            <edge source="RA5" target="R7" type="java.lang.Double" value="1.000000" />
+            <edge source="RA9" target="R6" type="java.lang.Double" value="1.000000" />
+        </graph>
+        <graph sourceType="task" targetType="resource" id="dependencies">
+            <edge source="RT1" target="K1" type="java.lang.Double" value="1.000000" />
+            <edge source="RT1" target="R1" type="java.lang.Double" value="1.000000" />
+            <edge source="RT2" target="R2" type="java.lang.Double" value="1.000000" />
+            <edge source="RT2" target="K2" type="java.lang.Double" value="1.000000" />
+            <edge source="RT3" target="R3" type="java.lang.Double" value="1.000000" />
+            <edge source="RT3" target="K3" type="java.lang.Double" value="1.000000" />
+            <edge source="RT4" target="R4" type="java.lang.Double" value="1.000000" />
+            <edge source="RT4" target="K4" type="java.lang.Double" value="1.000000" />
+            <edge source="RT5" target="R5" type="java.lang.Double" value="1.000000" />
+            <edge source="RT5" target="K5" type="java.lang.Double" value="1.000000" />
+            <edge source="RT6" target="R6" type="java.lang.Double" value="1.000000" />
+            <edge source="RT6" target="K6" type="java.lang.Double" value="1.000000" />
+            <edge source="RT7" target="R7" type="java.lang.Double" value="1.000000" />
+            <edge source="RT7" target="K7" type="java.lang.Double" value="1.000000" />
+            <edge source="RT1" target="RT4" type="java.lang.Double" value="1.000000" />
+            <edge source="RT2" target="RT4" type="java.lang.Double" value="1.000000" />   
+            <edge source="RT2" target="RT5" type="java.lang.Double" value="1.000000" />
+            <edge source="RT3" target="RT4" type="java.lang.Double" value="1.000000" />
+            <edge source="RT3" target="RT5" type="java.lang.Double" value="1.000000" />               
+            <edge source="RT5" target="RT6" type="java.lang.Double" value="1.000000" />               
+            <edge source="RT6" target="RT7" type="java.lang.Double" value="1.000000" />                               
+        </graph>
+    </networks>
+   </team>
+   <team id="blue">
+	<nodes>
+        <nodeset id="agent" type="agent">
+            <node id="BA1" subtype="Strategist" />
+        </nodeset>
+        <nodeset id="type" type="task">
+            <node id="BT1" />
+            <node id="BT2" />
+            <node id="BT3" />
+        </nodeset>
+    </nodes>
+    <networks>
+    </networks>
+   </team>
+   </teams>
+   <messages>
+   </messages>
+   <payoffs>
+	   <payoff name="RT1">
+	   	<payoff name="BT1">
+		   	<leaf RA1="0" BA1="0"/>
+	   	</payoff>
+	   		</payoff>
+	   	 <payoff name="RT1">
+	   	<payoff name="BT2">
+	   		<leaf RA1="1" BA1="-1"/>
+	   	</payoff>
+	   		</payoff>
+	   	 <payoff name="RT1">
+	   	<payoff name="BT3">
+	   		<leaf RA1="-1" BA1="1"/>
+	   	</payoff>
+	   </payoff> 
+	   <payoff name="RT2">
+	   	<payoff name="BT1">
+	   		<leaf RA1="-1" BA1="1"/>
+	   	</payoff>
+	   		</payoff>
+	   	<payoff name="RT2">
+	   
+	   	<payoff name="BT2">
+	   		<leaf RA1="0" BA1="0"/>
+	   	</payoff>
+	   		</payoff>
+	   	<payoff name="RT2">
+	   
+	   	<payoff name="BT3">
+	   		<leaf RA1="1" BA1="-1"/>
+	   	</payoff>
+	   </payoff>
+	   <payoff name="RT3">
+	   	<payoff name="BT1">
+	   		<leaf RA1="1" BA1="-1"/>
+	   	</payoff>
+	   		</payoff>
+	   	<payoff name="RT3">
+	   
+	   	<payoff name="BT2">
+	   		<leaf RA1="-1" BA1="1"/>
+	   	</payoff>
+	   		</payoff>
+	   	
+	   	<payoff name="RT3">	   
+	   	<payoff name="BT3">
+	   		<leaf RA1="0" BA1="0"/>
+	   	</payoff>
+	   </payoff>
+   </payoffs>
+</MetaMatrix>
